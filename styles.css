@@ -153,6 +153,28 @@ p {
     transition: 2s;
 }
 
+.link {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    padding: 10px;
+}    
+.myInfo {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    color: #13212f;
+    text-decoration: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.myName {
+    text-decoration: none;
+    cursor: pointer;
+    color:  #140d1e;
+    font-weight: 500;
+}
+
 @font-face {
     font-family: 'pieces_of_eight_cyrillic_aaRg';
     src: url('fonts/piecesofeightcyrillicaav2-webfont.eot');
